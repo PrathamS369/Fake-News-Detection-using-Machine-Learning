@@ -1,0 +1,17 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+**/venv/
+
+# NLTK cache (if you downloaded into your home dir)
+nltk_data/
+
+# macOS files
+.DS_Store
+
+# IDE files
+.vscode/
