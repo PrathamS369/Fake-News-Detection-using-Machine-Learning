@@ -8,22 +8,26 @@ A simple web application that classifies news articles as **Real** or **Fake** u
 
 ```
 fake_news_app/
-├── app.py
-├── tfidf_vectorizer.joblib
-├── logreg_fake_news.joblib
+├── app.py                     # Main Flask application
+├── logreg_fake_news.joblib    # Trained Logistic Regression model
+├── tfidf_vectorizer.joblib    # Fitted TF-IDF vectorizer
 ├── static/
-│   └── style.css
+│   └── style.css              # CSS for the frontend
 ├── templates/
-│   ├── index.html
-│   └── result.html
-├── images/
-│   ├── screenshot_index.png
-│   └── screenshot_result.png
-└── requirements.txt
+│   ├── index.html             # Home page
+│   └── result.html            # Result display page
+├── Screenshots/               # App UI screenshots
+│   ├── input_1.png
+│   ├── input_2.png
+│   ├── result_1.png
+│   └── result_2.png
+├── requirements.txt           # List of Python dependencies
+├── launch.json                # Optional VS Code configuration
+├── .gitignore                 # To ignore unnecessary files in version control
 ```
 
 * **app.py**: Main Flask application.
-* **.joblib** files: Serialized TF‑IDF vectorizer and trained Logistic Regression model.
+* **.joblib** files: Serialised TF‑IDF vectorizer and trained Logistic Regression model.
 * **static/style.css**: Custom CSS for styling.
 * **templates/**: HTML templates for input form and result page.
 * **images/**: Screenshots demonstrating the UI.
