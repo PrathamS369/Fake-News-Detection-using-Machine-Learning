@@ -30,7 +30,7 @@ fake_news_app/
 * **.joblib** files: Serialised TF‑IDF vectorizer and trained Logistic Regression model.
 * **static/style.css**: Custom CSS for styling.
 * **templates/**: HTML templates for input form and result page.
-* **images/**: Screenshots demonstrating the UI.
+* **screenshots/**: Screenshots demonstrating the UI.
 * **requirements.txt**: Lists all Python dependencies.
 
 ---
@@ -54,7 +54,7 @@ nltk>=3.6.0
 
 ## 📝 NLTK Data
 
-Before running the app, download necessary NLTK corpora:
+Before running the app, download the necessary NLTK corpora:
 
 ```bash
 python - <<EOF
@@ -74,15 +74,14 @@ EOF
    ```bash
    git clone https://github.com/PrathamS369/Fake-News-Detection-using-Machine-Learning.git
    cd fake-news-detector
-````
+   ```
 
 
-````
 2. **Set up a virtual environment** (recommended):
 ```bash
 python3 -m venv venv
 source venv/bin/activate     # macOS/Linux
-# or .\venv\Scripts\activate  # Windows
+.\venv\Scripts\activate  # Windows
 pip install -r requirements.txt
 ````
 
@@ -102,11 +101,13 @@ flask run
 
 ### Home Page
 
-![Home Page](images/screenshot_index.png)
+![Home Page](screenshots/input_1)
+![Home Page](screenshots/input_2)
 
 ### Prediction Result
 
-![Result Page](images/screenshot_result.png)
+![Result Page](screenshots/result_1)
+![Result Page](screenshots/result_2)
 
 ---
 
