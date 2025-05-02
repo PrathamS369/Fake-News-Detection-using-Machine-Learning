@@ -101,13 +101,13 @@ flask run
 
 ### Home Page
 
-![Home Page](screenshots/input_1)
-![Home Page](screenshots/input_2)
+![Home Page](screenshots/input_1.png)
+![Home Page](screenshots/input_2.png)
 
 ### Prediction Result
 
-![Result Page](screenshots/result_1)
-![Result Page](screenshots/result_2)
+![Result Page](screenshots/result_1.png)
+![Result Page](screenshots/result_2.png)
 
 ---
 
